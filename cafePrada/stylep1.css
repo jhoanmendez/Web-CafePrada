@@ -1,0 +1,1046 @@
+body{
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+/*Barra del menu*/
+#Menubar{
+    background-color: #1d333a;
+    position: relative;
+    height: 91px;
+    width: 99.9%;
+    margin-top: 1px;
+    
+
+}
+#cafe{
+    position: absolute;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 120px;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#Menubar img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 65px;
+    top: 5px;
+}
+#menu1{
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 290px;
+    margin-top: 30px;
+    width: 45px;
+    padding: 0px;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+}
+#menu2{
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    left: 600px;
+    top: 30px;
+    width: 45px;
+    padding: 0px;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+}
+#menu3{
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    left: 800px;
+    top: 30px;
+    width: 45px;
+    padding: 0;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+}
+#menu4{
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    left: 1000px;
+    top: 30px;
+    width: 45px;
+    padding: 0px;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#buscar{
+    position: absolute;
+    left: 75%;
+    top: 32px;
+    width: 136px;
+    cursor: pointer;
+    padding: 7px;
+}
+#cuenta{
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    left: 85%;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+/* Pantalla 1*/
+#containercategoria{
+    background-color: #1d333a;
+    width: 20%;
+    position: relative;
+    top: 5px;
+    left: 19%;
+    text-align: center;
+    text-wrap: nowrap;
+
+}
+
+#textocategoria{
+    color: white;
+    font-size: 25px;
+}
+
+
+.btnCategoria{
+    width: 70%;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+
+#container{
+    width: 150px;
+    position: absolute;
+    top: 99px;
+    left: 15%px;
+}
+
+#Iniciarsesion{
+    color: white;
+    background-color: #1d333a;
+    position: relative;
+    margin-bottom: 6px;
+    padding: 8px;
+    padding-right: 22px;
+    padding-left: 22px;
+    cursor: pointer;
+}
+
+#Iniciarsesion a{
+    color: white;
+    text-decoration: none;
+}
+
+#crearcuenta{
+    color: white;
+    background-color: #1d333a;
+    padding: 8px;
+    padding-right: 22px;
+    padding-left: 22px;
+    cursor: pointer;
+}
+#crearcuenta a{
+    color: white;
+    text-decoration: none;
+}
+#categoriasprincipales{
+    position: absolute;
+    top: 120px;
+    left: 274px;
+    
+}
+#contenedorCategoriaPrincipal{
+    display: flex;
+    flex-direction: row; 
+   
+}
+
+.tarjetaCategoria{
+    width: 30%;
+}
+
+.tarjetaCategoria img{
+    width: 50%;
+}
+
+
+.btnNegro{
+    padding: 8px;
+    width: 50%;
+    color: #ffffff;
+    background-color: black;
+    cursor: pointer;
+}
+
+/*pantalla 2*/
+.contenedorp2{
+    background: #17292f;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    width:503.8px;
+    height: 453.2px;
+    position: absolute;
+    left: 610px;
+    top: 200px;
+
+}
+.contenedorp2 h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+.contenedorp2 input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input input{
+    width: 90%;
+    height: 100%;
+    background: white;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    font-size: 16px;
+    color: #000000;
+    padding: 10px 35px 10px 20px;
+}
+.input input::placeholder{
+    color: #000000;
+}
+
+.contenedorp2 .remenber{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remenber label input{
+    accent-color: #000000;
+    margin-right: 3px;
+    height: 15px;
+    position: relative;
+    top: -30px;
+    
+}
+
+.remenber a{
+    color: #b76e22;
+    text-decoration: none;
+}
+.remenber a:hover{
+    text-decoration: underline;
+}
+.contenedorp2 .btn{
+    width: 100%;
+    height: 45px;
+    background: #000000;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.contenedorp2 .registrarse{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+.contenedorp2 p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.contenedorp2 p a:hover{
+    text-decoration: underline;
+}
+#recordarme{
+    font-size: 16px;
+    position: relative;
+    right: 145px;
+    top: -11px;
+}
+/*Pantalla 3*/
+#contenedorp3{
+    position: relative;
+    left: 40%;
+    top: 80px;
+}
+#contenedorp3 input{
+    padding: 10px;
+    background-color: #dfe2e4;
+    width: 390px;
+}
+#contenedorp3 button{
+    position: relative;
+    right: 380px;
+    top: 70px;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    width: 340px;
+}
+#contenedorp3 h1{
+    position: relative;
+    top: -40px;
+    left: 30px;
+    font-family: "sans";
+}
+    
+
+/*Pabtalla 4*/
+#Contenedorp4{
+    background-color: #17292f;
+    color: rgb(255, 255, 255);
+    width: 566.6px;
+    height: 800px;
+    position: relative;
+    top: 10px;
+    left: 700px;
+    align-items: center;
+    border-radius: 20px;
+}
+#Contenedorp4 h1{
+    position: relative;
+    top: 35px;
+    left: 180px;      
+}
+#nombre{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+#nombre h3{
+    font-weight: "open sans";
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    left: 25;
+}
+#nombre input{
+    padding: 8px;
+    width: 470px;
+}
+#correo{
+    position: absolute;
+    top: 165px;
+    margin-left: 35px;
+}
+#correo input{
+    padding: 8px;
+    width: 470px;
+}
+#telefono{
+    position: absolute;
+    top: 273px;
+    margin-left: 35px;
+}
+#telefono input{
+    padding: 8px;
+    width: 470px;
+}
+#pw{
+    position: absolute;
+    top: 371px;
+    margin-left: 35px;
+}
+#pw input{
+    padding: 8px;
+    width: 470px;
+}
+#Confirmarpw{
+    position: absolute;
+    top: 477px;
+    margin-left: 35px;
+}
+#Confirmarpw input{
+    padding: 8px;
+    width: 470px;
+}
+#btn{
+    position: relative;
+    top: 570px;
+    left: 45px;
+    padding: 13px 20px;
+    width: 470px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+#iniciesesion{
+    position: relative;
+    top: 600px;
+    left: 170px; 
+}
+/*Pantalla 5*/
+#perfil{
+    position: relative;
+    top: 44px;
+    display: inline-block;
+    
+}
+#usuario{
+    position: relative;
+    left: 583px;
+    border: 2px solid;
+    width: 680px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#usuario h1{
+    position: relative;
+    top: 10px;
+    left: 400px;
+}
+#usuario h2{
+    position: relative;
+    bottom: 120px;
+    left: 400px;
+}
+#usuario img{
+    position: relative;
+    left: 150px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+#file{
+    display: none;
+}
+
+#perfil label{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1d333a;
+    color: white;
+    cursor: pointer; 
+    border-radius: 5px; 
+    position: relative; 
+    top: 40px;
+    left: 17px;
+}
+
+#confcuenta{
+    position: relative;
+    left: 581px;
+    top: 44px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 120px;
+    padding-bottom: 0px;
+}
+
+#confcuenta h1{
+    position: relative;
+    bottom: 123px;   
+}
+#editarnom{
+    position: relative;
+    bottom: 132px;
+}
+
+#editarnom h2{
+    position: relative;
+    top: 30px;
+}
+
+#editarnom input{
+  width: 250px;
+  height: 20px;
+  background: #eaeaeb;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  font-size: 16px;
+  color: #000000;
+  padding: 10px 35px 10px 20px;
+  position: relative;
+  bottom: 23px;
+  left: 100px;
+}
+
+#editarcorreo{
+    position: relative;
+    bottom: 178px;
+}
+
+#editarcorreo h2{
+    position: relative;
+    top: 29px;
+}
+
+#editarcorreo input{
+    width: 250px;
+    height: 20px;
+    background: #eaeaeb;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    font-size: 16px;
+    color: #000000;
+    padding: 10px 35px 10px 20px;
+    position: relative;
+    bottom: 26px;
+    left: 100px;
+}
+
+#editartel{
+    position: relative;
+    bottom: 184px;
+}
+
+#editartel h2{
+    position: absolute;
+    top: -9px;
+}
+
+#editartel input{
+    width: 250px;
+    height: 20px;
+    background: #eaeaeb;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    font-size: 16px;
+    color: #000000;
+    padding: 10px 35px 10px 20px;
+    position: relative;
+    bottom: 0px;
+    left: 100px;
+}
+
+#editarpw{
+    position: relative;
+    bottom: 172px;
+}
+
+#editarpw h2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#editarpw input{
+    width: 250px;
+    height: 20px;
+    background: #eaeaeb;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    font-size: 16px;
+    color: #000000;
+    padding: 10px 35px 10px 20px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+#Guardar{
+    position: absolute;
+    top: 376px;
+    left: 485px;
+    width: 180px;
+    height: 40px;
+    background-color: #17292f;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+/*Pantalla 6*/
+#subtituloproductos{
+    position: relative;
+    top: 130px;
+    left: 548px;
+}
+#contenedorp6 h1{
+    position:absolute;
+    top: 122px;
+    left: 392px;
+}
+#Productosbc{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+#Producto-cafeAmericano{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+#Producto-cafeAmericano img {
+    width: 194.9px;
+    height: 137px;
+    cursor: pointer;
+}
+#Producto-Capuchino{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+}
+#Producto-Capuchino img {
+    width: 194.9px;
+    height: 137px;
+}
+#Producto-Late{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+#Producto-Late img {
+    width: 194.9px;
+    height: 137px;
+}
+#Producto-cafeExpresso{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+}
+#Producto-cafeExpresso img {
+    width: 194.9px;
+    height: 137px;
+}
+#productos-segundafila{
+    display: flex;
+    position: absolute;
+    top: 200px;
+}
+#Producto-te{
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+#Producto-te img {
+    width: 194.9px;
+    height: 137px;
+}
+#Producto-tes{
+    cursor: pointer;
+    margin-top: 120px;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+#Producto-tes img {
+    width: 194.9px;
+    height: 137px;
+}
+/*pantalla 7*/
+#subtituloproductos{
+    position:absolute;
+    top: 130px;
+    left: 748px;
+}
+#contenedorp7 h1{
+    position:absolute;
+    top: 122px;
+    left: 390px;
+}
+#Productosbf{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+#Producto-1{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+#Producto-1 img {
+    width: 194.9px;
+    height: 137px;
+}
+#Producto-2{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+}
+#Producto-2 img {
+    width: 194.9px;
+    height: 137px;
+}
+#Producto-3{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+#Producto-3 img {
+    width: 194.9px;
+    height: 137px;
+}
+#Producto-4{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+}
+#Producto-4 img {
+    width: 194.9px;
+    height: 137px;
+}
+#productos-segundafila{
+    display: flex;
+    position: absolute;
+    top: 200px;
+}
+#Producto-5{
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+#Producto-5 img {
+    width: 194.9px;
+    height: 137px;
+}
+/*Pantalla 8*/
+#contenedorp8 h1{
+    position:absolute;
+    top: 122px;
+    left: 390px;
+}
+#subtituloproductos{
+    position:absolute;
+    top: 130px;
+    left: 548px;
+}
+#Productosp{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+#Producto-01{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+#Producto-01 img {
+    width: 194.9px;
+    height: 137px;
+}
+#Producto-02{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+}
+#Producto-02 img {
+    width: 194.9px;
+    height: 137px;
+}
+#Producto-03{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+#Producto-03 img {
+    width: 194.9px;
+    height: 137px;
+}
+#Producto-04{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 80px;
+
+}
+#Producto-04 img {
+    width: 194.9px;
+    height: 137px;
+}
+#productos-segundafila{
+    display: flex;
+    position: absolute;
+    top: 200px;
+}
+#Producto-05{
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+#Producto-05 img {
+    width: 194.9px;
+    height: 137px;
+}
+/*Pantalla 9*/
+#titulo{
+    position: absolute;
+    top: 150px;
+    left: 800px;
+
+}
+#contenedorp9 img{
+    position: relative;
+    top: 178px;
+    left: 100px;
+}
+#nproducto{
+    position: relative;
+    top: -45px;
+    left: 350px;
+    font-size: 30px;
+}
+#contenedorp9 h3{
+    position: relative;
+    top: -15px;
+    left: 350px;
+}
+#contenedorp9 h4{
+    position: relative;
+    top: 30px;
+    left: 350px;
+}
+#contenedorp9 input{
+    position: relative;
+    top: 30px;
+    left: 350px;
+    cursor: pointer;
+}
+#Elegir-tamaño{
+    display: flex;
+}
+#Elegir-tamaño h5{
+    position: relative;
+    left: 325px;
+    top: 30px;
+    margin: 24px;
+    padding: 2px;
+}
+
+#precioproducto{
+    position: relative;
+    top: 10px;
+    left: 350px;
+}
+#Bolsa{
+    background-color: black;
+    color: #ffffff;
+    position: relative;
+    top: -48px;
+    left: 100px;
+    padding: 10px;
+    width: 160px;
+    cursor: pointer;
+}
+
+/*Pantalla 10 Bolsa de compras*/
+#contenedorp10 h1{
+    position: relative;
+    top: 10px;
+    left: 800px;
+    right: 0;
+    height: 0;
+
+}
+#table{
+    background-color: #000000;
+    position: relative;
+    top: 50px;
+    padding: -1px;
+    display: flex;
+    color: #ffffff;
+}
+#table h3{
+    padding-left: 243px;
+    left: 1px;
+}
+#producto1 h3{
+    position: relative;
+    bottom: 104px;
+    left: 507px;
+}
+
+#producto1{
+    position: relative;
+    top: 59px;
+    left: 0px;
+    height: 136px;
+}
+
+#producto1 img{
+    position: relative;
+    left: 187px;
+}
+
+#Precio{
+    position: relative;
+    left: 1170px;
+    bottom: 138px;
+}
+/*producto 2*/
+#producto2{
+    position: relative;
+    top: 110px;
+    left: 0px;
+    height: 136px;
+}
+
+#producto2 img{
+    position: relative;
+    left: 187px;
+    width: 174px;
+    height: 129px;
+}
+
+#producto2 h3{
+    position: relative;
+    left: 505px;
+    bottom: 99px;
+}
+
+
+#Precio2{
+    position: relative;
+    left: 1170px;
+    bottom: 0px;
+}
+#productos{
+    position: relative;
+    top: 150px;
+    left: 190px;
+    color: rgb(214, 118, 49);
+    margin-bottom: 40px;
+}
+#comprar{
+    position: relative;
+    left: 975px;
+    top: 94px;
+    width: 270px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+}
+#cantidad{
+    display: flex;
+    position: relative;
+    left: 855px;
+    bottom: 340px;
+}
+#cantidad button{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+#cantidad2{
+    display: flex;
+    position: relative;
+    left: 855px;
+    bottom: 225px;
+}
+#cantidad2 button{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+/*Pantalla 11 Alistar pedidos*/
+
+#contenido11 h1{
+    position: relative;
+    left: 800px;
+}
+#pedidoscomprados{
+    display: flex;
+}
+#pedidoscomprados h3{
+    position: relative;
+    left: 20px;
+}
+#pedidoscomprados h2{
+    position: relative;
+    left: 20px;
+}
+#pedido1{
+    background-color: #cac9c9;
+    width: 330px;
+    height: 220px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    left: 550px;
+    padding: 10px;
+}
+#pedido2{
+    background-color: #cac9c9;
+    width: 330px;
+    height: 220px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    left: 650px;
+    padding: 10px;
+}
+#pedidocomprado{
+    display: flex;
+}
+#preciopedido1{
+    position: relative;
+    bottom: 135px;
+    left: 220px;
+}
+#preciopedido2{
+    position: relative;
+    bottom: 135px;
+    left: 223px;
+}
+#sobrelapagina{
+    background-color: #17292f;
+    width: 100%;
+    height: 120px;
+}
